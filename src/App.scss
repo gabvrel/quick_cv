@@ -1,0 +1,96 @@
+.Header{
+  display: flex !important;
+  flex-direction: row;
+  div{
+  flex: 1;
+  position: relative;
+  }
+  .photo{
+    width: 175px;
+    height: 175px;
+    background-image: url("./assets/profile.jpeg");
+    background-size: contain;
+    border-radius: 250px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 175px;
+    bottom: -80px;
+  }
+  .bio{
+    max-width: 80%;
+  }
+}
+
+.Body{
+  display: flex;
+  flex-direction: row;
+  >div{
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 25px;
+    position: relative;
+  }
+  .Profile{
+    span{
+      text-align: left !important;
+    }
+    .content{
+      text-align: left !important;
+      h2{
+        color: #ab003c;
+      }
+      div{
+        text-align: left !important;
+        display: flex;
+        flex-direction: row;
+        h3{
+          margin: 0;
+          flex: 1
+        }
+        p{
+          margin: 0;
+          flex: 2
+        }
+      }
+    }
+  }
+  .Skills{
+    padding-top: 50px;
+    .icons{
+      display: flex;
+      width: 33%;
+      justify-content: space-between;
+    }
+    .info{
+      h1{
+        color: #ab003c
+      }
+      .slider{
+        h3{
+          margin-bottom: 5px;
+        }
+        .MuiSlider-root.Mui-disabled {
+          color: #3f51b5;
+          cursor: default;
+          pointer-events: none;
+          width: 350px;
+      }
+      }
+    }
+    .profile{
+      padding-left: 50px;
+      h2{
+        color: #ab003c;
+        text-align: left;
+      }
+      p{
+        text-align: left;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
