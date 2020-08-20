@@ -138,10 +138,13 @@
   .Body{
     flex-direction: column;
     .Skills {
-      padding-top: 220px;
+      padding-top: 0px;
     }
   }
   .Body .Profile .content .pContainer .Project{
     height: auto;
+  }
+  .Body .Skills .info .slider .MuiSlider-root.Mui-disabled{
+    width: 300px;
   }
   } 

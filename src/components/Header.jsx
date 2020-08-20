@@ -4,7 +4,7 @@ import Container from '@material-ui/core/Container';
 
 const Header = () => {
     return(
-        <AppBar position="fixed">
+        <AppBar position="static">
             <Container className="Header">
                 <div>
                     <div className="photo"/>
