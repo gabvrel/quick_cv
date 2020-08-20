@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 function getSteps() {
-    return ['Employment History', 'Education', 'Recent Apps'];
+    return ['Employment History', 'Education', 'My Recent Projects'];
 }
 
 function getStepContent(step) {

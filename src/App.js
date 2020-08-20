@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div style={{backgroundColor: "#f5f5f5"}}>
       <Container >
         <Body />
       </Container>
+      </div>
     </div>
   );
 }

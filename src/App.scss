@@ -34,11 +34,15 @@
     position: relative;
   }
   .Profile{
+    .MuiPaper-root.MuiStepper-root.MuiStepper-vertical.MuiPaper-elevation0 {
+      background-color: #f5f5f5 !important;
+  }
     span{
       text-align: left !important;
     }
     .content{
       text-align: left !important;
+      margin-bottom: 25px;
       h2{
         color: #ab003c;
       }
@@ -53,6 +57,33 @@
         p{
           margin: 0;
           flex: 2
+        }
+      }
+      .pContainer{
+        .Project{
+          width: 95%;
+          height: 350px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          padding: 15px;      
+          img{
+            height: 75%;
+            object-fit: contain;
+          }
+          h2{
+            position: absolute;
+            color: #ab003c;
+            left: 10px;
+            top: 10px;
+          }
+          p{
+            padding: 10px;
+          }
+          .nav{
+            display: flex;
+            justify-content: space-evenly;
+          }
         }
       }
     }
