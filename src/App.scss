@@ -125,3 +125,23 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  
+  .Header .photo{
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    bottom: 20px;
+  }
+  .Body{
+    flex-direction: column;
+    .Skills {
+      padding-top: 220px;
+    }
+  }
+  .Body .Profile .content .pContainer .Project{
+    height: auto;
+  }
+  } 
