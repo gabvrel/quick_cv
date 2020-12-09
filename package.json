@@ -2,7 +2,7 @@
   "name": "gb_csv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gabvrel.github.io/quick_cv",
+  "homepage": "https://gabvrel.xyz",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -19,7 +19,7 @@
     "react-scripts": "^4.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo gabvrel.xyz > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
