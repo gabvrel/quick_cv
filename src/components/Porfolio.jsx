@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 import Card from '@material-ui/core/Card';
 import Button from '@material-ui/core/Button';
-import giff from "../assets/covidTask.gif"
-import tele from "../assets/Logotipo-Telegram.png" 
 
 const projects = [
     {name: "Galiya", 
@@ -31,7 +29,8 @@ const Portfolio = () => {
         <div className="pContainer">
                 <h2>{projects[data].name}</h2>
                 <Card className="Project">
-                <iframe src={projects[data].img} 
+                <iframe src={projects[data].img}
+                title={projects[data].name} 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
                 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>{projects[data].desc} {projects[data].url !== undefined ?
