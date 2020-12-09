@@ -7,7 +7,7 @@ const projects = [
      img:  "https://www.youtube.com/embed/f14q3nkVevg?rel=0&modestbranding=1",
      desc: "Mobile app developed for an university in an effort to improve old people skills",
      url: "https://github.com/gabvrel/galiya"},
-     {name: "CoronaEc_bot", 
+     {name: "Rest Api", 
      img:  "https://www.youtube.com/embed/m-54dKcocJ8?rel=0&modestbranding=1",
      desc: "Django rest api designed for a mobile sales application",
      url: undefined}
