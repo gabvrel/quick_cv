@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="bio">
                     <h1>Gabriel Espinosa</h1>
                     <h4>
-                    Loyalty is a two-way route if I ask you it from you you'll have it from me.
+                    Loyalty is a two-way route if I ask you it from you'll have it from me.
                     </h4>
                 </div>
             </Container>

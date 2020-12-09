@@ -16,19 +16,19 @@ const Skills = () => {
                 <h1>Skills</h1>
                 <div className="slider">
                  <h3>JavaScript</h3>   
-                <Slider disabled defaultValue={90} aria-labelledby="js-slider" />
+                <Slider disabled defaultValue={95} aria-labelledby="js-slider" />
                 </div>
                 <div className="slider">
                  <h3>Python</h3>   
-                <Slider disabled defaultValue={95} aria-labelledby="py-slider" />
+                <Slider disabled defaultValue={90} aria-labelledby="py-slider" />
                 </div>
                 <div className="slider">
                  <h3>React/React Native</h3>   
-                <Slider disabled defaultValue={75} aria-labelledby="react-slider" />
+                <Slider disabled defaultValue={85} aria-labelledby="react-slider" />
                 </div>
                 <div className="slider">
-                 <h3>Others but without recent practice!</h3>   
-                <Slider disabled defaultValue={33} aria-labelledby="react-slider" />
+                 <h3>Machine Learning</h3>   
+                <Slider disabled defaultValue={55} aria-labelledby="react-slider" />
                 </div>
                 
             </div>

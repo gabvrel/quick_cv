@@ -6,12 +6,12 @@ import tele from "../assets/Logotipo-Telegram.png"
 
 const projects = [
     {name: "Galiya", 
-     img:  giff,
-     desc: "Mobile app developed for a university in an effort to improve old people skills",
+     img:  "https://www.youtube.com/embed/f14q3nkVevg?rel=0&modestbranding=1",
+     desc: "Mobile app developed for an university in an effort to improve old people skills",
      url: "https://github.com/gabvrel/galiya"},
      {name: "CoronaEc_bot", 
-     img:  tele,
-     desc: "Python/Postgres project for now under development, no link available for now",
+     img:  "https://www.youtube.com/embed/m-54dKcocJ8?rel=0&modestbranding=1",
+     desc: "Django rest api designed for a mobile sales application",
      url: undefined}
 ]
 
@@ -29,9 +29,11 @@ const Portfolio = () => {
 
     return(
         <div className="pContainer">
-                <Card className="Project">
                 <h2>{projects[data].name}</h2>
-                <img src={projects[data].img} alt={projects[data].name}/>
+                <Card className="Project">
+                <iframe src={projects[data].img} 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>{projects[data].desc} {projects[data].url !== undefined ?
                     <span><a href={projects[data].url}>Link</a> </span>
                  :
